@@ -2,7 +2,7 @@
 
 I was looking for the easiest way to generate `npub` and `nsec` keys myself locally without a ton of dependencies. There wasn't a solution out there for Python so here we are. Currently planning on building upon this example and adding various features. 
 
-### Dependences
+### Dependencies
 
 Python3 and what's in the requirements.txt file.
 
@@ -15,6 +15,8 @@ If you have multiple Python versions or are worried about dependency conflicts I
 else:
 
 `pip install -r requirements.txt`
+
+`python3 nostr_keygen.py`
 
 ### What this script does currently
 
