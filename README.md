@@ -4,7 +4,13 @@ I was looking for the easiest way to generate `npub` and `nsec` keys myself loca
 
 ### Dependencies
 
-Python3 and what's in the requirements.txt file.
+1. On Debian/Ubuntu you might need to install 
+
+`sudo apt install build-essential automake pkg-config libtool libffi-dev`
+
+to compile libsecp256k1.
+
+2. Python3 and what's in the requirements.txt file.
 
 If you have multiple Python versions or are worried about dependency conflicts I recommend using a virtual environment.
 
