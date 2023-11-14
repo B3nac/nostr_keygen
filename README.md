@@ -27,6 +27,7 @@ The script will print out the `npub` and `nsec` address that is randomly generat
 - Add import private key function 
 - Add CLI params for specific output
 - Add a way to generate a specific number of key pairs
+- Add support for NIP-05 via output of nostr.json via CLI param
 
 ### Support
 
