@@ -1,5 +1,5 @@
 from secp256k1 import PrivateKey, PublicKey
-import bech32
+from bech32 import bech32
 import qrcode
 import io
 

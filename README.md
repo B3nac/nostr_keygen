@@ -2,7 +2,7 @@
 
 I was looking for the easiest way to generate `npub` and `nsec` keys myself locally without a ton of dependencies. There wasn't a solution out there for Python so here we are. Currently planning on building upon this example and adding various features. 
 
-### Dependencies
+### Dependencies to run nostr_keygen.py
 
 1. On Debian/Ubuntu you might need to install 
 
@@ -24,7 +24,11 @@ else:
 
 `python3 nostr_keygen.py`
 
-### What this script does currently
+### Build from source into a binary
+
+`pyinstaller --add-data bech32:bech32 --add-binary _cffi_backend.cpython-310-x86_64-linux-gnu.so:. --onefile nostr_keygen.py`
+
+### What nostr_keygen does currently
 
 The script will print out the `npub` and `nsec` address that is randomly generated as well as ascii qrcodes for mobile clients.
 
